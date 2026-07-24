@@ -48,6 +48,8 @@ public class UniversitySocietyManagement
                                 String desc = input.nextLine();
                                 admin.createSociety(soc,id, name, desc);
                                 FileHandler.saveSocieties(soc);
+                                System.out.println(soc.size());
+                                System.out.println(admin.getManagedSocieties().size());
                                 break;
                             case 2:
                                 System.out.println("Enter Society ID");
@@ -88,12 +90,25 @@ public class UniversitySocietyManagement
                                 }
                                 System.out.println("Enter President ID");
                                 String memID = input.nextLine();
+                                boolean exists = false;
                                 for(Member m : regSociety.getMembers()){
-                                    if(m.getUserID().equalsIgnoreCase(memID)){
-                                        System.out.println("President already exist.");
-                                        continue;
-                                    }    
+                                    if(m.getRole().getRoleName().equalsIgnoreCase("President")){
+                                        System.out.println("This Society alreday has a President.");
+                                        exists = true;
+                                        break;
+                                    }   
+                                     if(m.userID.equalsIgnoreCase(memID)){
+                                        System.out.println("User ID already exists.");
+                                        exists = true;
+                                        break;
+                                    }
+                                  
+                                    
                                 }
+                                if(exists){
+                                    continue;
+                                }
+                                   
                                 System.out.println("Enter President name");
                                 String n = input.nextLine();
                                 System.out.println("Enter email address");
