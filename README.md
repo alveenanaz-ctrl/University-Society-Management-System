@@ -148,6 +148,18 @@ BS Software Engineering
 
 ⭐ If you found this project helpful, consider giving it a star!
 
-## OUTPUT
+## OUTPUT Screenshots
+<img width="552" height="614" alt="admin Menu" src="https://github.com/user-attachments/assets/d789cf32-7fec-4eed-8274-fbaf993413ba" />
+<img width="502" height="611" alt="president menu" src="https://github.com/user-attachments/assets/5749b204-c591-4652-9b2b-2e25e28c8f34" />
+<img width="371" height="215" alt="Member Login" src="https://github.com/user-attachments/assets/6fb38636-9024-4784-88cd-f03d58f9561b" />
+<img width="577" height="417" alt="add Member functionality" src="https://github.com/user-attachments/assets/dd8465ff-d73d-4ffe-8d7e-bcb2bea96919" />
+<img width="409" height="235" alt="view societies" src="https://github.com/user-attachments/assets/64e5c039-ea25-4c74-8353-c11e52683ed6" />
+<img width="469" height="508" alt="Vice President Menu" src="https://github.com/user-attachments/assets/d411e51c-032e-48d3-8429-d1226da920ae" />
+<img width="376" height="557" alt="Lead Menu" src="https://github.com/user-attachments/assets/f1a9379a-8660-4566-b141-e6d57fa149d9" />
+<img width="476" height="538" alt="Advisor Menu" src="https://github.com/user-attachments/assets/66824426-0e9d-491b-9e8a-01f76aa0620b" />
+<img width="387" height="515" alt="General Member Menu" src="https://github.com/user-attachments/assets/28711388-e98d-4b41-924f-5b86261b9661" />
+
+
+
 
 
